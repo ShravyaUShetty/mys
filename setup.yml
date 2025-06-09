@@ -1,5 +1,5 @@
  - name: Basic server setup
-   hosts: local
+   hosts: localhost
    become: false
    tasks:
      - name: example task
